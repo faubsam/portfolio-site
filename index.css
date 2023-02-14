@@ -58,11 +58,17 @@ body {
 	padding: 1rem;
 }
 
-#landing-text img {
-	border-radius: 8px;
-	margin-bottom: 2rem;
-	height: 20%;
+#landing-img {
+	margin: auto;
+	height: 25%;
 	width: 30%;
+	text-align: center;
+}
+
+#landing-img img {
+	height: 15rem;
+	border-radius: 8px;
+	margin: 0.75rem;
 }
 
 main {
