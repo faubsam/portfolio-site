@@ -9,6 +9,7 @@ body {
 	background-image: url('./images/firefox.jpg');
 	background-position:center;
 	background-size:cover;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 .hr {
@@ -152,6 +153,7 @@ h2 {
 
 .project-text h3 {
 	color: rgb(130, 130, 220);
+	font-family: 'Raleway', sans-serif;
 }
 
 .project-text h3 a {
@@ -167,6 +169,7 @@ h2 {
 .project-text p {
 	padding: 1rem;
 	letter-spacing: 0.05rem;
+	font-family: 'Ubuntu Mono', sans-serif;
 }
 
 @media (max-width: 960px) {
@@ -224,6 +227,7 @@ h2 {
 	margin-top: 0.5rem;
 	background-color: rgb(255, 185, 0);
 	border: none;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 #contact form button:hover {
