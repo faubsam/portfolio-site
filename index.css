@@ -19,11 +19,12 @@ body {
 #nav {
 	font-family: 'Courier Prime', sans-serif;
 	padding: 2rem;
-	position: sticky;
+	position: static;
 	top: 0;
 	width: 100%;
 	background-color: rgba(10,10,50,1);
 }
+
 
 #nav-items-list {
 	list-style: none;
@@ -168,21 +169,25 @@ h2 {
 	letter-spacing: 0.05rem;
 }
 
-#node-project img {
+@media (max-width: 960px) {
+	#node-project img {
 	order: 1;
 	border-radius: 8px 0 0 8px;
-}
-#node-project .project-text {
-	order: 2;
+	}
+	#node-project .project-text {
+		order: 2;
+	}
+
+	#java-project img {
+		order: 1;
+		border-radius: 8px 0 0 8px;
+	}
+	#java-project .project-text {
+		order: 2;
+	}
 }
 
-#java-project img {
-	order: 1;
-	border-radius: 8px 0 0 8px;
-}
-#java-project .project-text {
-	order: 2;
-}
+
 
 
 #contact {
@@ -231,7 +236,7 @@ h2 {
 
 
 #tools {
-	margin: 1.5rem auto;
+	margin: 0.5rem auto;
 	padding: 1rem;
 	text-align: center;
 }
@@ -251,6 +256,12 @@ h2 {
 #tools ul {
 	display: flex;
 	justify-content: space-around;
+}
+
+#languages-and-frameworks, #dev-tools {
+	width: 60%;
+	text-align:center;
+	margin: auto;
 }
 
 #tools-list {
