@@ -308,5 +308,6 @@ footer a {
 
 footer a:hover {
 	background-color: orange;
+	text-decoration: underline;
 	color: indigo;
 }
