@@ -240,6 +240,7 @@ h2 {
 
 #contact form button:hover {
 	background-color: rgb(235, 135, 0);
+	cursor: pointer;
 }
 
 #messages-textarea {
