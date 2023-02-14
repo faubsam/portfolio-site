@@ -149,6 +149,20 @@ h2 {
 	padding: 1rem 1rem 2rem 1rem;
 }
 
+.project-text h3 {
+	color: rgb(130, 130, 220);
+}
+
+.project-text h3 a {
+	text-decoration: none;
+	color: rgb(130, 130, 220);
+}
+
+.project-text h3 a:hover {
+	text-decoration: none;
+	color: rgb(100, 100, 200);
+}
+
 .project-text p {
 	padding: 1rem;
 	letter-spacing: 0.05rem;
