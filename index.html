@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Google fonts links -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Raleway:wght@700&family=Ubuntu+Mono&Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="./index.css">
+		<title>Samuel Faubert - Portfolio</title>
+	</head>
+	<body>
+		<div id="nav">
+			<ul id="nav-items-list">
+				<li class="nav-item"><a href="#about-me">About Me</a></li>
+				<li class="nav-item"><a href="#projects">Projects</a></li>
+				<li class="nav-item"><a href="#contact">Contact</a></li>
+				<li class="nav-item"><a href="#dev-tools">Tools</a></li>
+			</ul>
+		</div>
+		<div id="landing">
+			<h1>Samuel Faubert - Full Stack Web Developer</h1>
+			<div id="landing-text">
+				<p>I'm an aspiring software engineer with a passion for solving problems and creating great websites.</p><br>
+				<img src="images/headshot.png" alt="professional-picture">
+			</div>
+		</div>
+
+		<div class="hr">
+			<hr>
+		</div>
+
+		<main>
+			<section id="about-me">
+				<h2>About Me</h2>
+				<p>I have a B.Sc. in Computer Science from Western Governors University and I studied full-stack web development with Zuitt Learning Institute in the Philippines.</p>
+				<p>Previously, I worked as an information security consultant in Canada with large organizations in the banking and energy sector.</p>
+				<p>I am now a permanent resident in the Philippines looking to start my career in software development.</p>
+			</section>
+
+			<div class="hr">
+				<hr>
+			</div>
+
+			<h2 id="my-projects-h2">My Projects</h2>
+			<section id="projects">
+				<ul id="projects-list">
+					<li>
+						<div class="project" id="portfolio-project">
+							<div class="project-text">
+								<h3><a href="#landing"></a>My portfolio project</h3>
+								<p>This portfolio page demonstrates my knowledge and skills using HTML and CSS.</p>
+							</div>
+							<img class="project-image" src="https://www.techrepublic.com/wp-content/uploads/2022/07/html-css-beginners.jpg?x27457" alt="html and css">
+						</div>
+					</li>
+					<li>
+						<div class="project" id="node-project">
+							<div class="project-text">
+								<h3>Node backend server</h3>
+								<p>A node server with can process RESTful requests using Express.js and integrates with a third-party API</p>
+							</div>
+						<img class="project-image" src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*HkM78Z1G5UKqQNCHwBHRfA.png" alt="node+express">
+					</div>				
+					</li>
+					<li>
+						<div class="project" id="full-stack-project">
+							<div class="project-text">
+								<h3>Fullstack project - MERN</h3>
+								<p>Full-stack project featuring a Node backend with a React front-end, and a MongoDB instance.</p>
+							</div>
+							<img class="project-image" src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*l2tlJsFNg2tH6QizegKkqA.png" alt="mern">
+						</div>
+					</li>
+					<li>
+						<div class="project" id="java-project">
+							<div class="project-text">
+								<h3>Fullstack Java desktop application</h3>
+								<p>A Java application using the MVC design pattern, JavaFX and a MySQL instance for backend data access.</p>
+							</div>
+							<img class="project-image" src="https://miro.medium.com/max/1024/1*eVQGKMOtn4oRCs0yB62nUg.jpeg" alt="java+mysql">
+						</div>
+					</li>
+				</ul>
+				
+					
+				
+				
+			</section>
+
+			<div class="hr">
+				<hr>
+			</div>
+
+			<section id="contact">
+				<h2>Contact Me</h2>
+				<form action="">
+					<label class="form-label" for="name">Full Name</label><br>
+					<input class="form-input" type="text" name="name" id="name" required><br>
+
+					<label class="form-label" for="email">Email</label><br>
+					<input class="form-input" type="email" name="email" id="email" required><br>
+
+					<label class="form-label" for="contact-number">Contact number</label><br>
+					<input class="form-input" type="text" name="contact-number" id="contact-number"><br>
+
+					<label class="form-label" for="message">Message</label><br>
+					<textarea class="form-input" id="messages-textarea" rows="7" cols="40"></textarea><br>
+					<button type="submit">Send Message</button>
+				</form>
+			</section>
+
+			<div class="hr">
+				<hr>
+			</div>
+
+			<section id="tools">
+				<h2>Tools</h2>
+				<div id="languages-and-frameworks">
+					<h3>Languages and Frameworks</h3>
+					<ul id="tools-list">
+						<li class="tools-list-item">Javascript</li>
+						<li class="tools-list-item">Express</li>
+						<li class="tools-list-item">React</li>
+						<li class="tools-list-item">Node</li>
+						<li class="tools-list-item">Java</li>
+						<li class="tools-list-item">MySQL</li>
+						<li class="tools-list-item">AWS</li>
+					</ul>
+				</div>
+				<div id="dev-tools">
+					<h3>Developer Tools</h3>
+					<ul id="dev-tools-list">
+						<li class="dev-tools-list-item">Sublime Text</li>
+						<li class="dev-tools-list-item">GitLab</li>
+						<li class="dev-tools-list-item">Postman</li>
+						<li class="dev-tools-list-item">Git</li>
+						<li class="dev-tools-list-item">Splunk</li>
+						<li class="dev-tools-list-item">JIRA</li>
+					</ul>
+				</div>
+				
+			</section>
+			<div class="hr">
+				<hr>
+			</div>
+		</main>
+		<footer>
+			<p>Samuel Faubert - Web Developer Portfolio</p>
+			<p>&#169; 2023 - All rights reserved</p>
+			<a href="#landing">Back to Top</a>
+		</footer>
+	</body>
+</html>
