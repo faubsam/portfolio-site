@@ -75,6 +75,25 @@ body {
 	object-fit: contain;
 }
 
+#landing-images {
+	display: flex;
+}
+
+#landing-logos {
+	height: 15rem;
+	width: 60%;
+	padding: 0.75rem;
+}
+#landing-logos a {
+	margin: 2rem 1rem 1rem 1rem;
+}
+#landing-logos img {
+	display: block;
+	margin: 0.5rem;
+	border-radius: 1rem;
+	height: 30%;
+}
+
 main {
 	padding: 1rem 2rem;
 }
@@ -82,7 +101,10 @@ main {
 #about-me {
 	text-align:center;
 	padding: 0 1rem 1rem 1rem;
-	margin: 0.25rem;
+	margin: 1rem auto 1.5rem auto;
+	background-color: rgba(10,10,10,0.5);
+	border-radius: 8px;
+	width: 80%;
 }
 
 #about-me h2 {
@@ -93,11 +115,11 @@ main {
 
 #about-me p {
 	font-family: 'Ubuntu', sans-serif;
-	font-weight: 700;
+	font-weight: 500;
 	font-size: 1.2rem;
 	padding: 0.5rem;
 	margin: 0.5rem 2.5rem;
-	color: rgb(25,25,102);
+	color: rgb(120,120,170);
 }
 
 #projects {
@@ -311,24 +333,19 @@ footer {
 	font-family: 'Ubuntu', sans-serif;
 }
 
-footer p {
+#footer-paragraphs {
 	padding: 0.25rem;
-	color: gold;
-	margin: 0.25rem;
+	color: orange;
+	margin: 0.25rem auto;
 	font-weight: bold;
 	letter-spacing: 0.1rem;
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
 }
 
-footer a {
-	margin: 0.25rem;
-	padding: 0.25rem 1rem;
-	text-decoration: none;
-	color: gold;
-	border-radius: 6px;
+#footer-paragraphs p {
+	margin: 0 2rem;
 }
 
-footer a:hover {
-	background-color: orange;
-	text-decoration: underline;
-	color: indigo;
-}
+
